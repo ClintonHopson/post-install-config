@@ -29,26 +29,23 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Ok great you have installed osTicket but we still have a bit to do before we are in the system and logged on we have to make users / Admins to login as. 
+1ST fill in the (system settings) and( admin user info )
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![Ok great you have installed osTicket but we still have a bit to do…](https://github.com/user-attachments/assets/1a926c6b-596e-4770-9b8d-37a2720ad2d0)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+2nd Go back to your osTicket install folder and double click and install ( HeidiSQL_12.3.0.6589_Setup). 
+![Ok great you have installed osTicket but we still have a bit to do…](https://github.com/user-attachments/assets/6659730d-314f-4765-9f2c-5f46d07aa8d3)
+
+
+3rd : Once HeidiSQL is installed you will Select “ New “ then enter  “ root “ in the user and password sections this will connect us to our osTicket database so we can add users , Admins , SLA’s etc…
+
+![Ok great you have installed osTicket but we still have a bit to do…](https://github.com/user-attachments/assets/043d9dea-8ae0-403f-9fb4-c90edad17f13)
+
+4th Once you are conected right click on Unnamed > database > rename it to “osTicket” and save 
+
+![Ok great you have installed osTicket but we still have a bit to do…](https://github.com/user-attachments/assets/84b8c912-0301-49b4-8b39-ddda4aaa3299)
+
+5th Now go back to the osTicket brower scroll down to database settings and enter “ osTicket “ in the ( MySQL Database: ) and enter the root user and password then select “ install “  
+![Ok great you have installed osTicket but we still have a bit to do…](https://github.com/user-attachments/assets/7c41bd73-9cca-4e0b-9fd7-5c63b4d7f554)
+
