@@ -4,68 +4,6 @@
 
 <h1>osTicket Post-Install Configuration & Administration</h1>
 
-<p>
-Configured and administered a production-ready <strong>osTicket</strong> help desk environment following initial installation.  
-This project focuses on real-world IT support operations, including role-based access control, department and team structure, agent and user management, and Service Level Agreement (SLA) enforcement.
-</p>
-
-<h2>Project Overview</h2>
-
-<ul>
-  <li>Completed post-installation system configuration for osTicket</li>
-  <li>Configured database connectivity using HeidiSQL</li>
-  <li>Implemented role-based access control for admins and agents</li>
-  <li>Created departments and teams to simulate an enterprise support structure</li>
-  <li>Added agents and end users for ticket lifecycle testing</li>
-  <li>Configured SLA policies for issue prioritization and response timing</li>
-</ul>
-
-<h2>Technologies & Tools Used</h2>
-
-<ul>
-  <li>osTicket</li>
-  <li>Microsoft Azure (Virtual Machines)</li>
-  <li>Windows 10 Pro (21H2)</li>
-  <li>Internet Information Services (IIS)</li>
-  <li>MySQL / HeidiSQL</li>
-  <li>Remote Desktop Protocol (RDP)</li>
-</ul>
-
-<h2>Key Technical Skills Demonstrated</h2>
-
-<ul>
-  <li>Help desk system administration</li>
-  <li>Role-based access control (RBAC)</li>
-  <li>Department and team hierarchy configuration</li>
-  <li>Agent and end-user account management</li>
-  <li>Service Level Agreement (SLA) design and enforcement</li>
-  <li>Admin vs Agent workflow separation</li>
-  <li>Ticket lifecycle readiness for IT support operations</li>
-</ul>
-
-<h2>Configuration Highlights</h2>
-
-<ul>
-  <li>Created a full-access administrative role (“Supreme Admin”)</li>
-  <li>Built departments and teams to reflect real organizational structures</li>
-  <li>Configured agent permissions based on job function</li>
-  <li>Enabled guest ticket submission for realistic user workflows</li>
-  <li>Defined SLA tiers (Sev-A, Sev-B, Sev-C) with business and 24/7 schedules</li>
-</ul>
-
-<h2>Outcome</h2>
-
-<p>
-Delivered a fully operational help desk environment capable of handling real-world support tickets with structured escalation, role separation, and SLA enforcement.  
-The system is ready for day-to-day IT support operations and ticket management.
-</p>
-
-<hr />
-
-<p>
-<strong>Note:</strong> A detailed, step-by-step post-installation walkthrough with screenshots is provided below for documentation and learning purposes.
-</p>
-
 
 <h2>Configuration Steps</h2>
 
